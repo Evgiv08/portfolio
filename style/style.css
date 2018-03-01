@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.container > div {
+	margin: 10px;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+img:hover {
+	width: 350px;
+	transition: .7s;
+	margin: -25px;
+}
+img {
+	width: 300px;
+}
