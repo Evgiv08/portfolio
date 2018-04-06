@@ -18,12 +18,11 @@ h1 {
 	font-family: arial;
 }
 img:hover {
-	width: 350px;
-	transition: .7s;
-/* 	margin: -25px; */
+	transform: scale(1.2);
 }
 img {
 	width: 300px;
+	transition: .7s;
 }
 body {
 	background-color: lightgray;
